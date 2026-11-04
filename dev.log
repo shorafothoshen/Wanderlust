@@ -1,0 +1,475 @@
+npm notice run wanderlust@0.1.0 dev
+npm notice run next dev
+▲ Next.js 16.4.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.114:3000
+✓ Ready in 1187ms
+✓ Running next.config.ts took 49ms
+⚠ Slow filesystem detected. The benchmark took 371ms. If \\?\F:\Programming Hero\Mileston 008\Module 46\wanderlust\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+
+○ Compiling / ...
+[browser] ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  1 | import Link from "next/link"
+  2 | import { User, Menu, X } from "lucide-react"
+> 3 | import { useState } from "react"
+    |          ^^^^^^^^
+  4 |
+  5 | const links = [
+  6 |   { href: "/", label: "Home" },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/search-bar.tsx:1:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+> 1 | import { useState } from "react"
+    |          ^^^^^^^^
+  2 |
+  3 | type SearchValues = {
+  4 |   location: string
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/search-bar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  1 | import Link from "next/link"
+  2 | import { User, Menu, X } from "lucide-react"
+> 3 | import { useState } from "react"
+    |          ^^^^^^^^
+  4 |
+  5 | const links = [
+  6 |   { href: "/", label: "Home" },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/search-bar.tsx:1:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+> 1 | import { useState } from "react"
+    |          ^^^^^^^^
+  2 |
+  3 | type SearchValues = {
+  4 |   location: string
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/search-bar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  1 | import Link from "next/link"
+  2 | import { User, Menu, X } from "lucide-react"
+> 3 | import { useState } from "react"
+    |          ^^^^^^^^
+  4 |
+  5 | const links = [
+  6 |   { href: "/", label: "Home" },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/search-bar.tsx:1:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+> 1 | import { useState } from "react"
+    |          ^^^^^^^^
+  2 |
+  3 | type SearchValues = {
+  4 |   location: string
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/search-bar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  1 | import Link from "next/link"
+  2 | import { User, Menu, X } from "lucide-react"
+> 3 | import { useState } from "react"
+    |          ^^^^^^^^
+  4 |
+  5 | const links = [
+  6 |   { href: "/", label: "Home" },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/search-bar.tsx:1:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+> 1 | import { useState } from "react"
+    |          ^^^^^^^^
+  2 |
+  3 | type SearchValues = {
+  4 |   location: string
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/search-bar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  1 | import Link from "next/link"
+  2 | import { User, Menu, X } from "lucide-react"
+> 3 | import { useState } from "react"
+    |          ^^^^^^^^
+  4 |
+  5 | const links = [
+  6 |   { href: "/", label: "Home" },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/search-bar.tsx:1:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+> 1 | import { useState } from "react"
+    |          ^^^^^^^^
+  2 |
+  3 | type SearchValues = {
+  4 |   location: string
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/search-bar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+⨯ ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m
+  [90m2 |[0m [36mimport[0m { [33mUser[0m, [33mMenu[0m, [33mX[0m } [36mfrom[0m [32m"lucide-react"[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { useState } [36mfrom[0m [32m"react"[0m
+  [90m  |[0m          [31m[1m^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m links = [
+  [90m6 |[0m   { href: [32m"/"[0m, label: [32m"Home"[0m },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ui/search-bar.tsx:1:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { useState } [36mfrom[0m [32m"react"[0m
+  [90m  |[0m          [31m[1m^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mtype[0m [33mSearchValues[0m = {
+  [90m4 |[0m   location: string
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/search-bar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx
+
+
+ GET / 500 in 3.4s (next.js: 3.2s, application-code: 240ms)
+[browser] Uncaught Error: ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  1 | import Link from "next/link"
+  2 | import { User, Menu, X } from "lucide-react"
+> 3 | import { useState } from "react"
+    |          ^^^^^^^^
+  4 |
+  5 | const links = [
+  6 |   { href: "/", label: "Home" },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx
+
+
+[browser] ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  1 | import Link from "next/link"
+  2 | import { User, Menu, X } from "lucide-react"
+> 3 | import { useState } from "react"
+    |          ^^^^^^^^
+  4 |
+  5 | const links = [
+  6 |   { href: "/", label: "Home" },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/search-bar.tsx:1:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+> 1 | import { useState } from "react"
+    |          ^^^^^^^^
+  2 |
+  3 | type SearchValues = {
+  4 |   location: string
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/search-bar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  1 | import Link from "next/link"
+  2 | import { User, Menu, X } from "lucide-react"
+> 3 | import { useState } from "react"
+    |          ^^^^^^^^
+  4 |
+  5 | const links = [
+  6 |   { href: "/", label: "Home" },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/search-bar.tsx:1:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+> 1 | import { useState } from "react"
+    |          ^^^^^^^^
+  2 |
+  3 | type SearchValues = {
+  4 |   location: string
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/search-bar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+⨯ ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m
+  [90m2 |[0m [36mimport[0m { [33mUser[0m, [33mMenu[0m, [33mX[0m } [36mfrom[0m [32m"lucide-react"[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { useState } [36mfrom[0m [32m"react"[0m
+  [90m  |[0m          [31m[1m^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m links = [
+  [90m6 |[0m   { href: [32m"/"[0m, label: [32m"Home"[0m },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ui/search-bar.tsx:1:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { useState } [36mfrom[0m [32m"react"[0m
+  [90m  |[0m          [31m[1m^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mtype[0m [33mSearchValues[0m = {
+  [90m4 |[0m   location: string
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/search-bar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx
+
+
+ GET / 500 in 41ms (next.js: 25ms, application-code: 16ms)
+[browser] Uncaught Error: ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  1 | import Link from "next/link"
+  2 | import { User, Menu, X } from "lucide-react"
+> 3 | import { useState } from "react"
+    |          ^^^^^^^^
+  4 |
+  5 | const links = [
+  6 |   { href: "/", label: "Home" },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx
+
+
+[browser] ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  1 | import Link from "next/link"
+  2 | import { User, Menu, X } from "lucide-react"
+> 3 | import { useState } from "react"
+    |          ^^^^^^^^
+  4 |
+  5 | const links = [
+  6 |   { href: "/", label: "Home" },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/search-bar.tsx:1:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+> 1 | import { useState } from "react"
+    |          ^^^^^^^^
+  2 |
+  3 | type SearchValues = {
+  4 |   location: string
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/search-bar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  1 | import Link from "next/link"
+  2 | import { User, Menu, X } from "lucide-react"
+> 3 | import { useState } from "react"
+    |          ^^^^^^^^
+  4 |
+  5 | const links = [
+  6 |   { href: "/", label: "Home" },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/search-bar.tsx:1:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+> 1 | import { useState } from "react"
+    |          ^^^^^^^^
+  2 |
+  3 | type SearchValues = {
+  4 |   location: string
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/search-bar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/navbar.tsx:3:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  1 | import Link from "next/link"
+  2 | import { User, Menu, X } from "lucide-react"
+> 3 | import { useState } from "react"
+    |          ^^^^^^^^
+  4 |
+  5 | const links = [
+  6 |   { href: "/", label: "Home" },
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/navbar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+[browser] ./src/components/ui/search-bar.tsx:1:10
+Error: You're importing a module that depends on `useState` into a React Server Component module. This API is only available in Client Components. To fix, mark the file (or its parent) with the `"use client"` directive.
+    Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+> 1 | import { useState } from "react"
+    |          ^^^^^^^^
+  2 |
+  3 | type SearchValues = {
+  4 |   location: string
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/components/ui/search-bar.tsx
+    ./src/components/ui/hero.tsx
+    ./src/app/page.tsx 
+✓ Compiled in 3.7s
+ GET / 200 in 1635ms (next.js: 1216ms, application-code: 418ms)
+
+F:\Programming Hero\Mileston 008\Module 46\wanderlust>

@@ -1,0 +1,26 @@
+npm notice run wanderlust@0.1.0 dev
+npm notice run next dev
+▲ Next.js 16.4.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.114:3000
+✓ Ready in 4.2s
+✓ Running next.config.ts took 552ms
+⚠ Slow filesystem detected. The benchmark took 501ms. If \\?\F:\Programming Hero\Mileston 008\Module 46\wanderlust\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+
+○ Compiling / ...
+ GET / 200 in 4.4s (next.js: 1359ms, application-code: 3.0s)
+✓ Compiled in 10.4s
+✓ Compiled in 9.2s
+✓ Compiled in 888ms
+○ Compiling / ...
+ GET / 200 in 422ms (next.js: 155ms, application-code: 268ms)
+ GET / 200 in 630ms (next.js: 10ms, application-code: 620ms)
+✓ Compiled in 1286ms
+ GET / 200 in 316ms (next.js: 53ms, application-code: 263ms)
+✓ Compiled in 14.6s
+ GET / 200 in 1455ms (next.js: 197ms, application-code: 1257ms)
+ GET / 200 in 800ms (next.js: 71ms, application-code: 729ms)
+[?25h
+
+F:\Programming Hero\Mileston 008\Module 46\wanderlust>

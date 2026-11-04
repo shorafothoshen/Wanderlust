@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@theme {
+  --color-primary: #15A1BF;
+}
+
+body {
+  font-family: var(--font-josefin);
+}
+
+html,
+body {
+  overflow-x: clip;
+}
+
+/* Fluid type scale */
+.text-display {
+  font-size: clamp(44px, 7.2vw, 104px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+}
+
+.text-h2 {
+  font-size: clamp(34px, 4.2vw, 60px);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.text-card-title {
+  font-size: clamp(22px, 2.2vw, 32px);
+}
+
+.text-lead {
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 1.6;
+}

@@ -1,0 +1,721 @@
+npm notice run wanderlust@0.1.0 dev
+npm notice run next dev
+▲ Next.js 16.4.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.114:3000
+✓ Ready in 1370ms
+✓ Running next.config.ts took 89ms
+⚠ Slow filesystem detected. The benchmark took 377ms. If \\?\F:\Programming Hero\Mileston 008\Module 46\wanderlust\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+
+○ Compiling / ...
+ GET / 200 in 835ms (next.js: 602ms, application-code: 234ms)
+✓ Compiled in 16.4s
+✓ Compiled in 417ms
+✓ Compiled in 8.1s
+ GET / 200 in 1098ms (next.js: 182ms, application-code: 916ms)
+ GET / 200 in 340ms (next.js: 9ms, application-code: 331ms)
+ GET / 200 in 537ms (next.js: 25ms, application-code: 512ms)
+ GET / 200 in 533ms (next.js: 48ms, application-code: 485ms)
+ GET / 200 in 445ms (next.js: 23ms, application-code: 422ms)
+ GET / 200 in 428ms (next.js: 24ms, application-code: 404ms)
+ GET / 200 in 388ms (next.js: 8ms, application-code: 380ms)
+ GET / 200 in 220ms (next.js: 18ms, application-code: 201ms)
+✓ Finished filesystem cache database compaction in 11.4s
+⨯ The directory at "F:\Programming Hero\Mileston 008\Module 46\wanderlust\.next\dev" was deleted.
+
+Deleting this directory removes caches and will cause slower performance.
+
+Deleting this directory while Next.js is running can lead to undefined behavior. Restarting the server to recover...
+▲ Next.js 16.4.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.114:3000
+✓ Ready in 8.6s
+✓ Running next.config.ts took 1542ms
+⚠ Slow filesystem detected. The benchmark took 338ms. If \\?\F:\Programming Hero\Mileston 008\Module 46\wanderlust\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+
+○ Compiling / ...
+ GET / 200 in 1375ms (next.js: 825ms, application-code: 550ms)
+[browser] Image with src "/images/destinations/image2.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[browser] Image with src "/images/destinations/image1.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[browser] Image with src "/images/destinations/image3.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+ GET / 200 in 847ms (next.js: 37ms, application-code: 809ms)
+ GET /destinations/4 200 in 3.9s (next.js: 3.8s, application-code: 137ms)
+✓ Compiled in 1565ms
+[browser] Uncaught Error: useCarousel must be used within a <Carousel />
+    at useCarousel (src/components/ui/carousel.tsx:39:11)
+    at FeaturedDestinations (src/components/sections/home/featured-destinations.tsx:20:16)
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>)
+    at Home (src\app\(site)\page.tsx:9:7)
+  37 |
+  38 |   if (!context) {
+> 39 |     throw new Error("useCarousel must be used within a <Carousel />")
+     |           ^
+  40 |   }
+  41 |
+  42 |   return context
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+✓ Compiled in 1562ms
+⨯ Error: useCarousel must be used within a <Carousel />
+    at useCarousel (src\components\ui\carousel.tsx:39:11)
+    at FeaturedDestinations (src\components\sections\home\featured-destinations.tsx:19:16)
+  37 |
+  38 |   if (!context) {
+> 39 |     throw new Error("useCarousel must be used within a <Carousel />")
+     |           ^
+  40 |   }
+  41 |
+  42 |   return context {
+  digest: '2798024036'
+}
+ GET / 500 in 450ms (next.js: 30ms, application-code: 419ms)
+[browser] Uncaught Error: useCarousel must be used within a <Carousel />
+    at useCarousel (src/components/ui/carousel.tsx:39:11)
+    at FeaturedDestinations (src/components/sections/home/featured-destinations.tsx:19:16)
+    at Home (src\app\(site)\page.tsx:9:7)
+  37 |
+  38 |   if (!context) {
+> 39 |     throw new Error("useCarousel must be used within a <Carousel />")
+     |           ^
+  40 |   }
+  41 |
+  42 |   return context
+ GET / 200 in 331ms (next.js: 63ms, application-code: 268ms)
+✓ Compiled in 1526ms
+✓ Compiled in 2.6s
+ GET / 200 in 238ms (next.js: 49ms, application-code: 189ms)
+[browser] Encountered two children with the same key, `#`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `#`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `#`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `#`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+○ Compiling /_not-found/page ...
+ GET /images/testimonials/traveler-2.jpg 404 in 3.3s (next.js: 3.1s, application-code: 209ms)
+⨯ internal image response failed for /images/testimonials/traveler-2.jpg 404
+ GET /images/testimonials/traveler-1.jpg 404 in 3.3s (next.js: 3.2s, application-code: 120ms)
+⨯ internal image response failed for /images/testimonials/traveler-1.jpg 404
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+ GET / 200 in 404ms (next.js: 14ms, application-code: 390ms)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+ GET /images/testimonials/traveler-1.jpg 404 in 752ms (next.js: 444ms, application-code: 308ms)
+⨯ internal image response failed for /images/testimonials/traveler-1.jpg 404
+ GET /images/testimonials/traveler-2.jpg 404 in 771ms (next.js: 608ms, application-code: 162ms)
+⨯ internal image response failed for /images/testimonials/traveler-2.jpg 404
+✓ Compiled in 3.3s
+✓ Compiled in 1011ms
+✓ Compiled in 666ms
+✓ Compiled in 1633ms
+[browser] React instrumentation encountered an error: 'Error: The children should not have changed if we pass in the same set.\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:114434)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109538)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:114367)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109538)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:114367)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109538)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:113757)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109538)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:113757)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109538)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:113757)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109538)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:113757)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109448)\n' +
+  '    at updateVirtualInstanceRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:107953)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109741)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:113757)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109538)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:113757)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109448)\n' +
+  '    at updateVirtualInstanceRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:107953)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109741)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:113757)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109448)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:113757)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109448)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:113757)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109448)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:113757)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109448)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:113757)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109448)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:113757)\n' +
+  '    at updateVirtualChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109448)\n' +
+  '    at updateChildrenRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:109894)\n' +
+  '    at updateFiberRecursively (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:113757)' (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+ GET / 200 in 567ms (next.js: 116ms, application-code: 451ms)
+[browser] Encountered two children with the same key, `#`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `#`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `#`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `#`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+✓ Compiled in 640ms
+✓ Compiled in 695ms
+✓ Compiled in 262ms
+✓ Compiled in 168ms
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+    at S.scheduleRefresh (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+    at Set.forEach (<anonymous>) (chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:1:79881)
+ GET /images/testimonials/traveler-1.jpg 404 in 463ms (next.js: 224ms, application-code: 239ms)
+⨯ internal image response failed for /images/testimonials/traveler-1.jpg 404
+ GET /images/testimonials/traveler-2.jpg 404 in 482ms (next.js: 352ms, application-code: 131ms)
+⨯ internal image response failed for /images/testimonials/traveler-2.jpg 404
+✓ Compiled in 111ms
+ GET / 200 in 647ms (next.js: 53ms, application-code: 594ms)
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+✓ Compiled in 1519ms
+ GET / 200 in 288ms (next.js: 55ms, application-code: 233ms)
+✓ Compiled in 835ms
+✓ Compiled in 422ms
+✓ Compiled in 59ms
+✓ Compiled in 581ms
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `#`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `#`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+○ Compiling /_error ...
+ GET /images/testimonials/traveler-1.jpg 500 in 15.2s (next.js: 14.6s, application-code: 611ms)
+⨯ internal image response failed for /images/testimonials/traveler-1.jpg 500
+✓ Compiled in 358ms
+ GET / 200 in 258ms (next.js: 97ms, application-code: 160ms)
+ GET /images/cta.jpg 404 in 521ms (next.js: 211ms, application-code: 310ms)
+⨯ internal image response failed for /images/cta.jpg 404
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+[browser] ./src/components/sections/home/cta.tsx:34:13
+Error: Expected '</', got 'jsx text'
+  32 |           <ArrowRight width={20} height={20} />
+  33 |         </Link>
+> 34 |       </div>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |     </section>
+     | ^^^^
+  36 |   )
+  37 | }
+  38 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sections/home/cta.tsx
+    ./src/app/(site)/page.tsx 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `#`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `#`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+✓ Compiled in 1179ms
+ GET / 200 in 4.4s (next.js: 61ms, application-code: 4.3s)
+ GET /images/cta.jpg 404 in 368ms (next.js: 133ms, application-code: 235ms)
+⨯ internal image response failed for /images/cta.jpg 404
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+ GET /images/testimonials/traveler-1.jpg 404 in 520ms (next.js: 159ms, application-code: 361ms)
+⨯ internal image response failed for /images/testimonials/traveler-1.jpg 404
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `star`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+ GET /images/testimonials/traveler-2.jpg 404 in 487ms (next.js: 238ms, application-code: 249ms)
+⨯ internal image response failed for /images/testimonials/traveler-2.jpg 404
